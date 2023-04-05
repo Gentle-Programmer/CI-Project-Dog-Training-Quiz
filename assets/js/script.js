@@ -98,10 +98,14 @@ const closeResults = resultsModal.getElementsByClassName("close")[0];
 let currentQuestion = 0;
 let score = 0;
 
-
+startBtn.onclick = function () {
+    startQuiz();
+};
 
 function startQuiz() {
-
+    startBtn.classList.add("hidden");
+    quizContainer.classList.remove("hidden");
+    displayQuestion();
 }
 
 function displayQuestion() {
