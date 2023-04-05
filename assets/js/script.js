@@ -130,7 +130,18 @@ function displayQuestion() {
 }
 
 function handleAnswer(selected) {
+    const correctAnswer = quizdata[currentQuestion].correct;
+    if (selected === correctAnswer) {
+        score++;
+    }
 
+    if (currentQuestion === quizData.length - 1) {
+        displayResults();
+    }
+    else {
+        currentQuestion++;
+        displayQuestion();
+    }
 }
 
 function displayResults() {
