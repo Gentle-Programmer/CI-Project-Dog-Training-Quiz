@@ -53,9 +53,27 @@ const quizData = [
 },
 {
     question:"Q9: Your dog barks and lunges towards dogs most dogs he meets on a walk, what should you do when it happens?"
-    options: ["Shorten the lead immediately when you see a dog approaching and either wait until they pass or pull your dog away making sure he knows this behaviour is 'bold'", "Do nothing, dogs bark, that's normal", "Shorten the lead appropriately ensuring there is slack on it "],
-    correct: 0,
+    options: ["Pull your dog to you immediately when you see a dog approaching and either wait until they pass or pull your dog away making sure he knows this behaviour is 'bold'", "Do nothing, dogs bark, it's normal", "Shorten the lead appropriately ensuring it's not tight and walk away using appropriate command"],
+    correct: 2,
     image:"",
-}
+},
+{
+    question:"Q10: What is the most time effective strategy for resolving nuisance behaviours such as begging for food or chewing on furniture?"
+    options: ["Maintain tight management, have a solid daily routine and reward the opposite behaviour", "Be very consistent in telling your dog he is 'bold' for doing the wrong behaviour until he gets it", "Keep your dog in a crate until he gets over it"],
+    correct: 0,
+    image:"",  
+},
+]; 
 
-]
+const startBtn = document.getElementById("startBtn");
+const quizContainer = document.getElementById("quizContainer");
+const questionCounter = document.querySelector(".question-counter");
+const questionElem = document.querySelector(".question");
+const optionsContainer = document.querySelector(".options-container");
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
+const resultsModal = document.getElementById("resultsModal");
+const closeResults = resultsModal.getElementsByClassName("close")[0];
+
+let currentQuestion = 0;
+let score = 0;
