@@ -77,3 +77,21 @@ const closeResults = resultsModal.getElementsByClassName("close")[0];
 
 let currentQuestion = 0;
 let score = 0;
+
+
+
+function startQuiz() {
+
+}
+
+function displayQuestion() {
+
+}
+
+function handleAnswer(selected) {
+
+}
+
+function displayResults() {
+    
+}
