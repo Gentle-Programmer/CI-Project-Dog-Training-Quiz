@@ -2,6 +2,24 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("currentYear").textContent = new Date().getFullYear();
 });
 
+const infoBtn = document.getElementById("infoBtn");
+const infoModal = document.getElementById("infoModal");
+const closeModal = infoModal.getElementsByClassName("close")[0];
+
+infoBtn.onclick = function () {
+    infoModal.style.display = "block";
+};
+
+closeModal.onclick= function (){
+    infoModal.style.display = "none";
+};
+
+window.onclick = function (event) {
+    if (event.target === infoModal) {
+        infoModal.style.display = "none";
+    }
+};
+
 const quizData = [
 {
     question:"Q1: What is one of the most important factors in successful dog training?"
@@ -64,6 +82,8 @@ const quizData = [
     image:"",  
 },
 ]; 
+
+
 
 const startBtn = document.getElementById("startBtn");
 const quizContainer = document.getElementById("quizContainer");
