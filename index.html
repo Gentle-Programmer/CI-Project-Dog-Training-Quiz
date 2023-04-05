@@ -9,35 +9,36 @@
 <body>
   <div class="container">
     <!-- Modal for displaying information-->
-    <button class="about-btn">About The Quiz</button>
-    <div class="modal">
+    <button id="aboutBtn" class="about-btn">About The Quiz</button>
+    <div id="aboutModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <p>This is a short 10 questions close-ened quiz with only one answer correct per question. It shouldn't take you more than 5 min to complete. Your answers are anonnymous. The overal results might be used for educational purposes. Enjoy!</p>
         </div>
     </div>
     <h1 class="title">Dog Training Quiz</h1>
+    <h2>Take our test to find out how well you are doing in applying science-based dog traiing principles in everyday interactions with your dog and identify small changes which can dramaticallt improve your dogs behaviour with little to none effort on your part!</h2>
     <img class="logo" src="" alt="Gentle Dog's Club Logo">
 
-   <button class="start-btn">Start Quiz</button>
+   <button id="startBtn" class="start-btn">Start Quiz</button>
 
-   <div class="quiz-container hidden">
+   <div id="quizContainer" class="quiz-container hidden">
     <p class="question-counter"></p>
-    <div class="question-counter">
+    <div class="question-container">
         <h2 class="question"></h2>
-        <button class="nav-btn">Previous</button>
-        <button class="nav-btn">Next</button>
+        <button id="prevBtn" class="nav-btn">Previous</button>
+        <button id="nextBtn" class="nav-btn">Next</button>
         <img class="question-image" src="" alt="Question Image">
         <div class="options-container"></div>
     </div>
    </div>
 
    <!--Modal for displaying results-->
-   <div class="modal">
+   <div id="resultsModal" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
         <h2>Quiz Results</h2>
-        <p></p>
+        <p id="resultsContent"></p>
     </div>
    </div>
   </div> 
