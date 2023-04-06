@@ -97,7 +97,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const nextBtn = document.getElementById("nextBtn");
     const resultsModal = document.getElementById("resultsModal");
     const closeResults = resultsModal.getElementsByClassName("close")[0];
-    const header = document.querySelector('header')
+    
+    
 
     
 
@@ -198,10 +199,25 @@ document.addEventListener("DOMContentLoaded", function () {
         };
 });
 
-startBtn.addEventListener('click', ()=>{
+
+// Get header el
+const header = document.querySelector('header')
+
+// Hide header when start quiz
+startBtn.addEventListener('click', () => {
     header.classList.add('hidden')
-    quizContainer.classList.remove('hidden');
+    // quizContainer.classList.remove('hidden')
 })
+
+const closeModalBtn = document.querySelector('#resultsModal .close');
+
+closeModalBtn.addEventListener('click', () => {
+    // resultsModal.classList.add('hidden')
+    header.classList.remove('hidden')
+})
+
+
+
 
 
 
