@@ -59,7 +59,17 @@ Posible future enhancements for the Gentle Dog Training Quiz include:
 
 ## Validator Testing
 
-## Bugs to be Resolved
+- HTML
+    -
+
+- CSS
+    -
+
+- JavaScript
+    -
+
+
+### Bugs to be Resolved
 Noe bugs identified after testing phase.
 
 # Deployment
@@ -67,15 +77,49 @@ Noe bugs identified after testing phase.
 
 # Credits
 
-Big thanks to my tutor Michal Krawczyk for his knowledge and support.
+Big thanks to my tutor Michal Krawczyk for his knowledge and support through out this project.
 
-### 
+- Ideas and knowledge library:
 
-## Content
+  - [w3schools.com](https://www.w3schools.com)
 
-## Media
+  - [css-tricks.com](https://css-tricks.com/)
+
+  - [developer.mozilla.org/](https://developer.mozilla.org/)
+
+  - 
+
+### Content
+
+### Media
 
 
 # Technologies Used
 
+### HTML5
 
+- As a structure language.
+
+### CSS
+
+- As a style language.
+
+### JavaScript
+
+- As a functionality script.
+
+### Google Fonts
+
+- As a font resource.
+
+### GitHub
+
+- As a software hosting platform to keep project in a remote location.
+
+### Git
+
+- As a version-control system tracking.
+
+### GitPod
+
+- As a development hosting platform.
