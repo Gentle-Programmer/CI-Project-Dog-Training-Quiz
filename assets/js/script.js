@@ -97,7 +97,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const nextBtn = document.getElementById("nextBtn");
     const resultsModal = document.getElementById("resultsModal");
     const closeResults = resultsModal.getElementsByClassName("close")[0];
-    const logo = document.querySelector('.logo')
     
     
 
@@ -110,7 +109,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     startBtn.onclick = function () {
         startQuiz();
-        logo.classList.add('logo-move')
     };
 
     function startQuiz() {
@@ -216,7 +214,6 @@ startBtn.addEventListener('click', () => {
 // Show header when close results modal 
 closeModalBtn.addEventListener('click', () => {
     header.classList.remove('hidden')
-    logo.classList.remove('logo-move')
 })
 
 
