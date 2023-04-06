@@ -1,4 +1,4 @@
-// 
+/* DOM structure */
 
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("currentYear").textContent = new Date().getFullYear();
@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     };
 
+    /* Quiz Questions, Options, Correct Answers and Images */
     const quizData = [
     {
     question: "Q1: What is one of the most important factors in successful dog training?",
@@ -84,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   ]; 
 
-// 
+/* Quiz Functions in Association with User Actions */
 
     const startBtn = document.getElementById("startBtn");
     const quizContainer = document.getElementById("quizContainer");
@@ -131,7 +132,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function handleAnswer(selected) {
-    const correctAnswer = quizData[currentQuestion] ? ".correct" : ".incorrect";
+    const correctAnswer = quizData[currentQuestion].correct;
     if (selected === correctAnswer) {
         score++;
     }
@@ -147,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function displayResults() {
         const resultsContent = document.getElementById("resultsContent");
         const percentage = Math.round((score / quizData.length) * 100);
-        resultsContent.textContent = `You scored ${score} out of ${quizData.length} (${percentage}%).`;
+        resultsContent.textContent = `You scored ${score} out of ${quizData.length} ${percentage}%.`;
 
         quizContainer.classList.add("hidden");
         resultsModal.style.display = "block";

@@ -1,108 +1,81 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Gentle Dog Training Quiz
 
-Welcome Gentle-Programmer,
+# Overview
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The Gentle Dog Training Quiz is a fun and engaging web-based quiz game designed to test users' knowledge about science-based dog training techniques, tips and strategies. The quiz contains single-choice questions with varying levels of difficulty focusing on practical side of training. It is designed to be responsive and mobile-friendly, making it easy for users to engage with it on various devices.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# User Stories
 
-## Gitpod Reminders
+## 1. As a User, I want to learn more about dog training techniques and improve my knowledge. I want to easily navigate through the quiz abd view my results at the end.
+## 2. As a Dog Owner, I want to test my knowledge about dog training to ensure I'm providing the best possible training for my dog.
+## 3. As a Dog Trainer or Animal Rescue Manager, I want to use the quiz as an educational tool for my clients to help them better understand the concepts of dog training and if needed find reputable dog training specialist.
+## 4. As a Dog Enthusiast, I want to challenge myself and compete with my friends to see who has the most knowledge about dog training.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+# Target Audience
 
-A blue button should appear to click: _Make Public_,
+The primary target audience for the Gentle Dog Training Quiz includes:
 
-Another blue button should appear to click: _Open Browser_.
+## Dog Owners who want to learn about positive dog traiing techniques abd tips to provide better care and training for their pets.
+## Aspiring or professional dog trainers who want to test their knowledge and keep up-to-date with the latest dog training concepts.
+## Dog enthusiasts who enjoy learning about dogs and want to challenge themselves with a fun and engaging quiz.
+## General users who may be considering adopting a dog and want to educate themselves about dog training before commiting and find a reputable training provider.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+# Features
 
-Another blue button should appear to click: _Open Browser_.
+## Responsive design: The quiz is mobile-friendly and can be accessed on various devices, including smartphones, tablets and desktops.
+## Single-choice answers: Only one answers per question is correct to make the quiz fun and enjoyable without making it too challenging.
+## Information modal: Users can learn more about the purpose of the quiz by clicking on About the Quiz button in upper left corner of the page.
+## Progress tracking: Users can view the current question number and total number of questions throughout the quiz.
+## Navigation: Users can navigate between questions using 'Next' and 'Previous' buttons.
+## Results summary: At the end of the quiz, users can view their score as the percentage of correct answers and read an educational summary of the quiz. Call to action is also included.
+## Footer with copyright, author name, current year and links to author's website and Facebook page.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+# Usage
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+To use the Gentle Dog Training Quiz, simply open the HTML file in a web browser. When the quiz loads, click the 'Start Quiz' button to begin. Answer the questions by clicking on the option buttons below. Use the 'Next' and 'Previous' buttons to navigate between questions. After completing the quiz, a results modal will display your score and an educational summary of all correct answers with helpful tips for every day training enhancement.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+# Future Enhancements
 
-------
+Posible future enhancements for the Gentle Dog Training Quiz include:
 
-## Release History
+## Leaderboard: Implement a leaderboard system to allow users to compare their scores with other players and assign prices or pre-selected training solutions depending on the user's score.
+## Categories: Add different categories of questions related to dog training such as puppy training, obedience training and behaviour issues.
+## Question bank: Expand the question bank with more questions and add a feature to randomly select questions for each quiz attempt.
+## User registration: Allow users to create account and track their progress and performance over time as well as support upselling of the training content tailored to user's needs.
+## Customization: Provide options for users to customize the quiz, such as the number of questions, difficulty level, or category selection.
+## Social sharing: Enable users to share their results on social media platforms such as Facebook, Twitter and Instagram.
+## Marketing automation: Further automation of sales process can be included to utilyse the quiz as an effective marketing tool.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+# Testing
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Functionality Testing
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Compatibility Testing
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Performance Testing
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Validator Testing
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Bugs to be Resolved
+Noe bugs identified after testing phase.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+# Deployment
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+# Credits
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Big thanks to my tutor Michal Krawczyk for his knowledge and support.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Content
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Media
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Technologies Used
 
-------
 
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
