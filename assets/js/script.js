@@ -1,4 +1,4 @@
-/* DOM structure */
+/* DOM content to be loaded */
 
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("currentYear").textContent = new Date().getFullYear();
@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     /* Quiz Questions, Options, Correct Answers and Images */
+
     const quizData = [
     {
     question: "Q1: What is one of the most important factors in successful dog training?",
@@ -96,6 +97,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const nextBtn = document.getElementById("nextBtn");
     const resultsModal = document.getElementById("resultsModal");
     const closeResults = resultsModal.getElementsByClassName("close")[0];
+    const header = document.querySelector('header')
+
+    
 
     let currentQuestion = 0;
     let score = 0;
@@ -132,17 +136,33 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function handleAnswer(selected) {
-    const correctAnswer = quizData[currentQuestion].correct;
-    if (selected === correctAnswer) {
-        score++;
-    }
+        const correctAnswer = quizData[currentQuestion].correct;
+        const options = optionsContainer.children;
 
-    if (currentQuestion === quizData.length - 1) {
-        displayResults();
-    } else {
-        currentQuestion++;
-        displayQuestion();
-    }
+        if (selected === correctAnswer) {
+           options[selected].classList.add("correct");
+           score++;
+        } else {
+            options[selected].classList.add("incorrect");
+        }
+
+        optionsContainer.style.pointerEvents = "none";
+        
+            // Wait for 2 seconds before proceeding to next question
+        setTimeout(function() {
+            // Remove the color classes from the selected answer button
+            options[selected].classList.remove("correct", "incorrect");
+
+            // Re-enable clicking on answer buttons
+            optionsContainer.style.pointerEvents = "auto";
+
+            if (currentQuestion === quizData.length - 1) {
+                displayResults();
+            } else {
+                currentQuestion++;
+                displayQuestion();
+          }
+        }, 2000);
     }
 
     function displayResults() {
@@ -177,3 +197,12 @@ document.addEventListener("DOMContentLoaded", function () {
            displayQuestion();
         };
 });
+
+startBtn.addEventListener('click', ()=>{
+    header.classList.add('hidden')
+    quizContainer.classList.remove('hidden');
+})
+
+
+
+
