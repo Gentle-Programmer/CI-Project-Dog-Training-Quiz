@@ -169,8 +169,17 @@ body {
         margin: 5px 0;
     }
     .info-btn {
-        top: 92px;
+        font-size: .8rem;
+        padding: 5px 10px;
     }
+}
+
+@media screen and (max-width: 860px) {
+    .info-btn {
+        font-size: .8rem;
+        padding: 5px 10px;
+    }
+
 }
 
 @media screen and (min-width: 551px) {
