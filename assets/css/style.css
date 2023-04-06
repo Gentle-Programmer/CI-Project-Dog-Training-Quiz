@@ -172,12 +172,27 @@ body {
         font-size: .8rem;
         padding: 5px 10px;
     }
+    .logo{
+        max-width: 80px;
+        margin-bottom: 0;
+    }
+    .question {
+        font-size: 1.3rem;
+    }
+    .question-counter{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 860px) {
     .info-btn {
         font-size: .8rem;
         padding: 5px 10px;
+    }
+    .logo{
+        max-width: 80px;
+        margin-bottom: 0;
+       
     }
 
 }
