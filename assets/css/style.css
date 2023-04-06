@@ -8,6 +8,8 @@ body {
     min-height: 100vh;
 }
 
+/* Modal for displaying information */
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -73,6 +75,8 @@ body {
     max-width: 200px;
     margin-bottom: 20px;
 }
+
+/* Quiz Container and navigation */
 
 .start-btn {
     font-size: 1.2rem;
@@ -144,6 +148,34 @@ body {
     background-color: #0073b7;
 }
 
+/* Media Query */
+
+@media screen and (max-width: 550px) {
+    .options-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .option-btn {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .info-btn {
+        top: 92px;
+    }
+}
+
+@media screen and (min-width: 551px) {
+    .options-container {
+        flex-wrap: wrap;
+    }
+    .option-btn {
+        width: 48%;
+    }
+}
+
+/* JS displayAnswer Interactivity*/
+
 .hidden {
     display: none;
 }
@@ -155,6 +187,9 @@ body {
 .incorrect {
     background-color: #f44336;
 }
+
+
+/* Footer */
 
 footer {
     padding: 10px;

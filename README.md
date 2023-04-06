@@ -74,6 +74,7 @@ Noe bugs identified after testing phase.
 
 # Deployment
 
+The project was deployed o
 
 # Credits
 
@@ -91,8 +92,14 @@ Big thanks to my tutor Michal Krawczyk for his knowledge and support through out
 
 ### Content
 
+- How to implement modal [Modal](https://www.youtube.com/watch?v=XH5OW46yO8I)
+
+
 ### Media
 
+- The logo is an official business logo of [Gentle Dog's Club](https://gentledogsclub.ie) trading in Dublin, Ireland.
+- All photos used were purchaised by Gentle Dog's Club from [Shutterstock](https://shutterstock.com) 
+- Fonts [Google fonts - Poppins](https://fonts.google.com/)
 
 # Technologies Used
 
