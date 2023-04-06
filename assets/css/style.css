@@ -76,6 +76,14 @@ body {
     margin-bottom: 20px;
 }
 
+#logo-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Quiz Container and navigation */
 
 .start-btn {

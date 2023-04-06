@@ -200,19 +200,17 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-// Get header el
+// Get elements to hide and show header title and text
+const closeModalBtn = document.querySelector('#resultsModal .close');
 const header = document.querySelector('header')
 
 // Hide header when start quiz
 startBtn.addEventListener('click', () => {
     header.classList.add('hidden')
-    // quizContainer.classList.remove('hidden')
 })
 
-const closeModalBtn = document.querySelector('#resultsModal .close');
-
+// Show header when close results modal 
 closeModalBtn.addEventListener('click', () => {
-    // resultsModal.classList.add('hidden')
     header.classList.remove('hidden')
 })
 
