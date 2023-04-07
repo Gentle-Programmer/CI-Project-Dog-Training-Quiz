@@ -67,23 +67,27 @@ I tested on hardware devices such as: 14' screen HP laptop, 17' screen Asus lapt
 
 I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website .
 
-![Lighthouse ](https://github.com/NewViewNewBeginning/Project-02-Code-Institute/blob/main/assets/readme-img/lighthouse-scr.png)
+![Lighthouse](./assets/images/readme/lighthouse.png)
 
 
 ## Validator Testing
 
 - HTML
-    -
+    - No errors were found upon final validation using [W3C validator](https://validator.w3.org/#validate_by_input).
 
 - CSS
-    - No errors were found upon validation using [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator)
+    - No errors were found upon validation using [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator).
 
 - JavaScript
-    -
+    - No errors were found when passing through [Jshint validator](https://jshint.com/).
 
 
 ### Bugs to be Resolved
-No bugs identified after testing phase.
+No bugs identified after testing phase. 
+One warning highlited upon html validation refering to line 41 of html code 'Warning: Empty heading. From line 41, column 9; to line 41, column 29, >↩        <h2 class="question"></h2>↩' The empty heading has dynamic content assigned from JavaScript therefore it remains empty.
+
+
+
 
 ## Deployment
 
@@ -107,6 +111,7 @@ To run localy:
 Alternatively you can [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
 this repository ([CI-Project-Dog-Training-Quiz](https://github.com/Gentle-Programmer/CI-Project-Dog-Training-Quiz)) into your github account.
+
 
 ## Credits
 
@@ -132,6 +137,7 @@ Big thanks to my tutor Michal Krawczyk for his knowledge and support through out
 - The logo is an official business logo of [Gentle Dog's Club](https://gentledogsclub.ie) trading in Dublin, Ireland.
 - All photos used were purchaised by Gentle Dog's Club from [Shutterstock](https://shutterstock.com) 
 - Fonts [Google fonts - Poppins](https://fonts.google.com/)
+
 
 # Technologies Used
 

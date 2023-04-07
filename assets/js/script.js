@@ -97,15 +97,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const nextBtn = document.getElementById("nextBtn");
     const resultsModal = document.getElementById("resultsModal");
     const closeResults = resultsModal.getElementsByClassName("close")[0];
-    
-    
-
-    
 
     let currentQuestion = 0;
     let score = 0;
-
-    
 
     startBtn.onclick = function () {
         startQuiz();
@@ -151,12 +145,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         optionsContainer.style.pointerEvents = "none";
         
-            // Wait for 2 seconds before proceeding to next question
+            // Wait for 2 seconds before proceeding to next question 
         setTimeout(function() {
-            // Remove the color classes from the selected answer button
+            // Remove the color classes from the selected answer button 
             options[selected].classList.remove("correct", "incorrect");
 
-            // Re-enable clicking on answer buttons
+            // Re-enable clicking on answer buttons 
             optionsContainer.style.pointerEvents = "auto";
 
             if (currentQuestion === quizData.length - 1) {
@@ -201,24 +195,16 @@ document.addEventListener("DOMContentLoaded", function () {
         };
 });
 
-
-// Get elements to hide and show header title and text
+// Get elements to hide and show header title and text 
 const closeModalBtn = document.querySelector('#resultsModal .close');
-const header = document.querySelector('header')
+const header = document.querySelector('header');
 
-// Hide header when start quiz
+// Hide header when start quiz 
 startBtn.addEventListener('click', () => {
-    header.classList.add('hidden')
-})
+    header.classList.add('hidden');
+});
 
 // Show header when close results modal 
 closeModalBtn.addEventListener('click', () => {
-    header.classList.remove('hidden')
-})
-
-
-
-
-
-
-
+    header.classList.remove('hidden');
+});
