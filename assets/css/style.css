@@ -8,7 +8,7 @@ body {
     min-height: 100vh;
 }
 
-/* Modal for displaying information */
+/* Info Modal */
 
 .container {
     max-width: 800px;
@@ -74,12 +74,6 @@ body {
 .logo {
     max-width: 200px;
     margin-bottom: 20px;
-}
-.logo-move{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    max-width: 80px;
 }
 
 #logo-container{
@@ -195,8 +189,6 @@ body {
         font-size: .8rem;
         padding: 5px 10px;
     }
-
-
 }
 
 @media screen and (min-width: 551px) {

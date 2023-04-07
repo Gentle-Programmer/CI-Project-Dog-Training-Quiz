@@ -1,18 +1,20 @@
 # Gentle Dog Training Quiz
 
-# Overview
+## [View live website here](https://gentle-programmer.github.io/CI-Project-Dog-Training-Quiz/) 
+
+## Overview
 
 The Gentle Dog Training Quiz is a fun and engaging web-based quiz game designed to test users' knowledge about science-based dog training techniques, tips and strategies. The quiz contains single-choice questions with varying levels of difficulty focusing on practical side of training. It is designed to be responsive and mobile-friendly, making it easy for users to engage with it on various devices.
 
-# User Stories
+## User Stories
 
-## 1. As a User, I want to learn more about dog training techniques and improve my knowledge. I want to easily navigate through the quiz abd view my results at the end.
-## 2. As a Dog Owner, I want to test my knowledge about dog training to ensure I'm providing the best possible training for my dog.
-## 3. As a Dog Trainer or Animal Rescue Manager, I want to use the quiz as an educational tool for my clients to help them better understand the concepts of dog training and if needed find reputable dog training specialist.
-## 4. As a Dog Enthusiast, I want to challenge myself and compete with my friends to see who has the most knowledge about dog training.
+## 1. As a User, I want to learn more about the ways to train dogs. I want to easily navigate through the quiz abd view my results at the end.
+## 2. As a Dog Owner, I want to test my knowledge about dog training to ensure I'm providing the best possible training for my dog so that we can have a happy and healthy relationship.
+## 3. As a Dog Trainer or Animal Rescue Manager, I want to use the quiz as an educational tool for my clients to help them better understand important concepts of dog training and reinforce concepts covered in educational materials.
+## 4. As a Dog Lover, I want to have fun answering questions on dog training and learn something new in the process.
 
 
-# Target Audience
+## Target Audience
 
 The primary target audience for the Gentle Dog Training Quiz includes:
 
@@ -22,22 +24,23 @@ The primary target audience for the Gentle Dog Training Quiz includes:
 ## General users who may be considering adopting a dog and want to educate themselves about dog training before commiting and find a reputable training provider.
 
 
-# Features
+## Features
 
 ## Responsive design: The quiz is mobile-friendly and can be accessed on various devices, including smartphones, tablets and desktops.
 ## Single-choice answers: Only one answers per question is correct to make the quiz fun and enjoyable without making it too challenging.
 ## Information modal: Users can learn more about the purpose of the quiz by clicking on About the Quiz button in upper left corner of the page.
 ## Progress tracking: Users can view the current question number and total number of questions throughout the quiz.
 ## Navigation: Users can navigate between questions using 'Next' and 'Previous' buttons.
+## Two-second delay between displaying the feedback and moving to the next question, to allow users to see the correct answer and process their feedback.
 ## Results summary: At the end of the quiz, users can view their score as the percentage of correct answers and read an educational summary of the quiz. Call to action is also included.
-## Footer with copyright, author name, current year and links to author's website and Facebook page.
+## Footer with copyright, author's name, current year and links to author's website and Facebook page.
 
 
-# Usage
+## Usage
 
 To use the Gentle Dog Training Quiz, simply open the HTML file in a web browser. When the quiz loads, click the 'Start Quiz' button to begin. Answer the questions by clicking on the option buttons below. Use the 'Next' and 'Previous' buttons to navigate between questions. After completing the quiz, a results modal will display your score and an educational summary of all correct answers with helpful tips for every day training enhancement.
 
-# Future Enhancements
+## Future Enhancements
 
 Posible future enhancements for the Gentle Dog Training Quiz include:
 
@@ -49,13 +52,23 @@ Posible future enhancements for the Gentle Dog Training Quiz include:
 ## Social sharing: Enable users to share their results on social media platforms such as Facebook, Twitter and Instagram.
 ## Marketing automation: Further automation of sales process can be included to utilyse the quiz as an effective marketing tool.
 
-# Testing
+## Testing
 
 ## Functionality Testing
 
+I used Mozilla web developer tools and Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
+
 ## Compatibility Testing
 
+Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tools and Chrome developer tools.
+I tested on hardware devices such as: 14' screen HP laptop, 17' screen Asus laptop, 27' hp monitor, Samsung s20fe, Samsung s7edge and Samsung Note 10.
+
 ## Performance Testing
+
+I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website .
+
+![Lighthouse ](https://github.com/NewViewNewBeginning/Project-02-Code-Institute/blob/main/assets/readme-img/lighthouse-scr.png)
+
 
 ## Validator Testing
 
@@ -63,20 +76,39 @@ Posible future enhancements for the Gentle Dog Training Quiz include:
     -
 
 - CSS
-    -
+    - No errors were found upon validation using [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator)
 
 - JavaScript
     -
 
 
 ### Bugs to be Resolved
-Noe bugs identified after testing phase.
+No bugs identified after testing phase.
 
-# Deployment
+## Deployment
 
-The project was deployed o
+The project was deployed on GitHub Pages. GitPod was used as a development environment where I commited all changes to git version control system. I used push command to save changes to GitHub.
 
-# Credits
+To deploy a project:
+
+- Log in to GitHub and click on repository to deploy ([CI-Project-Dog-Training-Quiz](https://github.com/Gentle-Programmer/CI-Project-Dog-Training-Quiz))
+- select `Settings` and find GitHub Pages section on the left hand side.
+- from source select `Classic Pages experience` and then `main` branch.
+- click `save` and page was deployed after auto-refresh.
+
+[View live website here](https://gentle-programmer.github.io/CI-Project-Dog-Training-Quiz/)
+
+To run localy:
+
+- Log in to GitHub and click on repository to download ([CI-Project-Dog-Training-Quiz](https://github.com/Gentle-Programmer/CI-Project-Dog-Training-Quiz))
+- select `Code` and click Download the ZIP file.
+- after download you can extract the file and use it in your local environment
+
+Alternatively you can [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
+this repository ([CI-Project-Dog-Training-Quiz](https://github.com/Gentle-Programmer/CI-Project-Dog-Training-Quiz)) into your github account.
+
+## Credits
 
 Big thanks to my tutor Michal Krawczyk for his knowledge and support through out this project.
 
