@@ -27,23 +27,45 @@ The primary target audience for the Gentle Dog Training Quiz includes:
 ## Features
 
 ## Responsive design: The quiz is mobile-friendly and can be accessed on various devices, including smartphones, tablets and desktops.
+
+![Responsiveness](./assets/images/readme/responsivnes.png)
+
+## Clean main page design
+
+![Main Page](./assets/images/readme/main-page.png)
+
 ## Single-choice answers: Only one answers per question is correct to make the quiz fun and enjoyable without making it too challenging.
-## Information modal: Users can learn more about the purpose of the quiz by clicking on About the Quiz button in upper left corner of the page.
 ## Progress tracking: Users can view the current question number and total number of questions throughout the quiz.
+
+![Answer Options](./assets/images/readme/question.png)
+
+## Information modal: Users can learn more about the purpose of the quiz by clicking on About the Quiz button in upper left corner of the page.
+
+![Info Modal](./assets/images/readme/info-modal.png)
+
 ## Navigation: Users can navigate between questions using 'Next' and 'Previous' buttons.
 ## Two-second delay between displaying the feedback and moving to the next question, to allow users to see the correct answer and process their feedback.
-## Results summary: At the end of the quiz, users can view their score as the percentage of correct answers and read an educational summary of the quiz. Call to action is also included.
+
+![Correct Answer](./assets/images/readme/correct-answer.png)
+
+![Incorrect Answer](./assets/images/readme/bad-answer.png)
+
+## Results summary: At the end of the quiz, users can view their score as the percentage of correct answers. Call to action is also included.
+
+![Results Modal](./assets/images/readme/result-modal.png)
+
 ## Footer with copyright, author's name, current year and links to author's website and Facebook page.
 
 
 ## Usage
 
-To use the Gentle Dog Training Quiz, simply open the HTML file in a web browser. When the quiz loads, click the 'Start Quiz' button to begin. Answer the questions by clicking on the option buttons below. Use the 'Next' and 'Previous' buttons to navigate between questions. After completing the quiz, a results modal will display your score and an educational summary of all correct answers with helpful tips for every day training enhancement.
+To use the Gentle Dog Training Quiz, simply open the HTML file in a web browser. When the quiz loads, click the 'Start Quiz' button to begin. Answer the questions by clicking on the option buttons below. Use the 'Next' and 'Previous' buttons to navigate between questions. After completing the quiz, a results modal will display your score.
 
 ## Future Enhancements
 
 Posible future enhancements for the Gentle Dog Training Quiz include:
 
+## Education: Add educational summary to the results section, potentially dynamically linked to the user's answers to provide tailored summary addressing knowledge gaps.
 ## Leaderboard: Implement a leaderboard system to allow users to compare their scores with other players and assign prices or pre-selected training solutions depending on the user's score.
 ## Categories: Add different categories of questions related to dog training such as puppy training, obedience training and behaviour issues.
 ## Question bank: Expand the question bank with more questions and add a feature to randomly select questions for each quiz attempt.
@@ -83,10 +105,11 @@ I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to 
 
 
 ### Bugs to be Resolved
+
 No bugs identified after testing phase. 
-One warning highlited upon html validation refering to line 41 of html code 'Warning: Empty heading. From line 41, column 9; to line 41, column 29, >↩        <h2 class="question"></h2>↩' The empty heading has dynamic content assigned from JavaScript therefore it remains empty.
 
-
+- One warning highlited upon html validation refering to line 41 of html code 'Warning: Empty heading. From line 41, column 9; to line 41, column 29, <h2 class="question"></h2> The empty heading has dynamic content assigned from JavaScript therefore it remains empty.
+- Two undefined variables highlighted upon JavaScript validation line 197 target and line 219 startBtn. 
 
 
 ## Deployment
@@ -125,11 +148,20 @@ Big thanks to my tutor Michal Krawczyk for his knowledge and support through out
 
   - [developer.mozilla.org/](https://developer.mozilla.org/)
 
-  - 
+  - How to implement modal [Modal](https://www.youtube.com/watch?v=XH5OW46yO8I), [Modal Creation](https://www.youtube.com/watch?v=6ophW7Ask_0)
+
+  - Build A Quiz App With JavaScript [Quiz App](https://www.youtube.com/watch?v=riDzcEQbX6k) ; [Quiz App with Javascript - Object Oriented Programming](https://www.youtube.com/watch?v=jvk1pFNqXaw) ; [Quiz App 3](https://www.youtube.com/watch?v=f4fB9Xg2JEY) 
+
+  - [JavaScript DOM creation Part 1](https://www.youtube.com/watch?v=0ik6X4DJKCc) ; [JavaScript DOM creation Part 2](https://www.youtube.com/watch?v=mPd2aJXCZ2g) ; [JavaScript DOM creation Part 3](https://www.youtube.com/watch?v=wK2cBMcDTss)
+
+  - [Responsive Web Design](https://www.youtube.com/watch?v=srvUrASNj0s)
+
+  - [CSS Flexbox](https://www.youtube.com/watch?v=JJSoEo8JSnc)
+
 
 ### Content
 
-- How to implement modal [Modal](https://www.youtube.com/watch?v=XH5OW46yO8I)
+- All questions were created by Gentle Dog's Club Head Trainer
 
 
 ### Media
@@ -137,7 +169,7 @@ Big thanks to my tutor Michal Krawczyk for his knowledge and support through out
 - The logo is an official business logo of [Gentle Dog's Club](https://gentledogsclub.ie) trading in Dublin, Ireland.
 - All photos used were purchaised by Gentle Dog's Club from [Shutterstock](https://shutterstock.com) 
 - Fonts [Google fonts - Poppins](https://fonts.google.com/)
-
+- Colors used: #f0f0f0; #4CAF50; #45a049; rgba(0, 0, 0, 0.4); fefefe; #888; #aaa; #008cba; #0073b7; #f44336
 
 # Technologies Used
 
